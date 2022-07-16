@@ -1,0 +1,16 @@
+///Position;
+static, relative, fixed and absolute:
+
+    static: default position, normal natural flow;
+
+    relative: nudge the default position a few pixels and use the left, top, bottom and right commands
+
+    Absolute: absolutely removed from the normal flow and placed near the latest coontainer
+
+    fixed: Stuck to the same position in the page
+
+
+/// Collapsing Margins:
+
+don't use margin bottom with margin top with following divs
+define everything in one margin direction (bottom for example)

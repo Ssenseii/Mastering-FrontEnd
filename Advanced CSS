@@ -1,0 +1,56 @@
+Flex box shortcuts:
+
+    flex-flow: to set multiple properties in a parent flex container (direction and wrap)
+    flex: (flex grow, flex shrink, flex basis)
+
+Debugging CSS:
+
+    Change existing rules directly in the browser.
+    Write new style declarations in an existing rule.
+    Write new rules with new selectors.
+    Click DOM elements and copy/paste selectors.
+    Toggle whether rules are even being applied with a checkbox.
+    Click on the source line next to a rule and see the source code in the browser.
+
+    add borders
+    comment out code
+
+responsive design review
+
+    viewport: user's visible area of a webpage
+
+viewsports & media-queries:
+
+    ex:
+        @media screen and (min-width:600px) {
+            nav {
+            float: left;
+            width: 25%;
+        }
+            section {
+            margin-left: 25%;
+            }
+        }
+
+        @media screen and (max-width:599px) {
+            nav li {
+            display: inline;
+            }
+        }
+
+    Practice: 
+
+        media-query-practice
+        ├── css
+        │    └── styles.css
+        └── media-query-site.html
+
+    types:
+
+        -all: any and all devices.
+        -print: Refers to viewing our site in "print preview" mode. For instance, if we had a website with a dark-colored background that users may want to print, we could use a print media query that removes the dark-colored background to make our website's information more legible in a printed format.
+        -screen: Refers to color screens.
+        -speech: Refers to screen readers that assist visually-impaired users.
+
+
+    
