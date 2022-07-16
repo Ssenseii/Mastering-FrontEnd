@@ -54,3 +54,20 @@ viewsports & media-queries:
 
 
     
+Pseudo-Classes;
+
+        hover;
+        empty;
+        active;
+
+        :enabled selects inputs that are enabled and ready to be used. (That is, they haven't had the disabled property applied to them.)
+        :disabled selects inputs with the disabled attribute.
+        :checked selects currently-checked checkboxes.
+        :required selects form fields marked as required.
+        :optional selects inputs that do not have a required field.
+
+        nth-child() selects children elements based on a provided as an argument. It takes three different types of arguments:
+            Numbers
+            Keywords
+            Algebraic expressions
+
